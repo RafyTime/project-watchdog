@@ -8,7 +8,7 @@ A build-ready specification for a serviceable wearable Mask System that can reli
 
 - This map plans the work; it does not implement the Mask System.
 - Use `wayfinder`, `grilling`, and `domain-modeling` while resolving design decisions. Use `research` for external technical facts and `prototype` when a rough artifact is needed to make a choice.
-- Use the vocabulary in [`CONTEXT.md`](../../../CONTEXT.md).
+- Use the vocabulary in [`GLOSSARY.md`](../../../GLOSSARY.md).
 - Preserve the existing mask exterior. Small concealed cuts, holes, or permanent mounts are acceptable.
 - The Pocket Controller is the dependable primary control. The Phone Controller adds configuration and optional features.
 - Plan for four hours of active use. Prefer a pocket-carried USB-C power bank, subject to electrical validation.
