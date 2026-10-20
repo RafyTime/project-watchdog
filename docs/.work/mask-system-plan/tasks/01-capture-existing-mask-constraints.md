@@ -1,26 +1,31 @@
 # Capture the existing mask constraints
 
 Type: task
-Status: claimed
+Status: resolved
 Blocked by: none
 
 ## Question
 
 What measured geometry, photographs, materials, attachment points, wearer clearances, sightlines, ventilation paths, and modification limits of the existing mask must later display and mechanical decisions respect?
 
-## Capture in progress
+## Answer
+
+The existing mask constraints are captured below from Leo's measurements, wear reports, and photographs. Dimensions are approximate planning inputs. Component selection must include a physical fit check because the frame flexes, the insert curves, and glasses occupy part of the interior.
 
 ### Dimensions reported by Leo
 
 - Approximate overall width is 200 mm and height is 180 mm. The mask curves; whether these measurements follow the curve or span it remains unconfirmed.
 - With the dark eye insert removed and retaining its natural curve, its reported maximum width is approximately 165 mm and maximum height is approximately 85 mm. These were supplied in response to a request for straight spans rather than distances along the curve. They describe the whole insert, including edges retained by the frame, not the exposed Eye Display area.
 - With the insert fitted and without bending the frame, the exposed dark area is approximately 160 mm wide, possibly slightly less, and approximately 75 mm tall at the tallest point of each eye side. The nose cutout and curved outline constrain rectangular component placement within these maximum spans.
+- Looking from above with the insert fitted, Leo estimates a straight span of approximately 165 mm and a centre bow of approximately 40-45 mm forward of the line joining the insert's ends. The frame conceals those ends, so he approximated their positions by moving the ruler toward the front. This is an estimated curve measurement, not a precise profile or an assumed circular arc.
+- The initial setup instead spanned the outer frame, giving approximately 185 mm across and 55-60 mm of centre bow. These frame measurements must not be used as insert dimensions. Centre bow across the width is distinct from the local insert-to-padding gaps below.
 
 ### Photographic evidence
 
 - [Assembled front](../assets/mask-front.jpg) shows a dark, continuous eye insert, a surrounding frame, and a decorated lower face piece with grille-like openings.
 - [Separate parts](../assets/mask-parts.jpg) shows the eye insert removed from its frame, foam around the wearer-facing frame edge, and an adjustable strap. The lower face piece is shown separately.
 - [Frame from above](../assets/frame-top.jpg), [frame from below](../assets/frame-bottom.jpg), and [frame from behind](../assets/frame-back.jpg) show the frame depth, padding, and rear opening. The padding projects behind the eye insert, which sits at the front of the frame. These photographs do not measure clearance when worn.
+- [Top curve measurement](../assets/top-cruve-measurement.jpg) shows the initial ruler setup spanning the frame. The insert-specific estimate comes from Leo's subsequent adjustment, described above.
 - [Lower piece from behind](../assets/lower-piece-back.jpg) shows a foam-backed central grille, two circular cheek openings with mesh, and four projecting attachment tabs along the top edge.
 - [Previous Halloween wear with friends](../assets/halloween-with-friends.jpg) and [full outfit reference](../assets/halloween-costume.jpg) document the assembled mask worn previously. Leo confirms that the white eye shapes in the friends photo were marker, not lights. These are appearance and wear references, not evidence of an operating Eye Display.
 - Photographs document shape and construction. Material descriptions, dimensions, attachment behavior, and wearer fit rely on Leo's reports; photographs alone do not establish those facts or ventilation performance.
@@ -62,13 +67,13 @@ What measured geometry, photographs, materials, attachment points, wearer cleara
 - In response to the current wear check, Leo reports no fogging or heat buildup, with slight stuffiness. From previous extended Halloween wear, he reports that the mask can become hot after some time at a club.
 - This establishes the existing mask's reported wear behavior without electronics. Later validation must check heat, stuffiness, and fogging with the Eye Display operating under expected event conditions.
 
-### Remaining capture checklist
+### Follow-up validation with candidate components
 
-- Candidate mounting points for added components.
-- Eye insert and frame opening dimensions, curvature, and usable mounting depth.
-- Exact eye position and minimum glasses clearance if required by a candidate component layout.
-- Visibility under dim event lighting; internal reflection and glare testing belongs to later Eye Display validation.
-- Concealed cable routes, removal and service access, and specific modification limits.
+- Check component outlines and thicknesses against the curved insert, nose cutout, frame opening, and actual eye/glasses positions while worn. The maximum width and height do not define a rectangular mounting area.
+- Select and validate component mounts. No dedicated electronics mounting point or load capacity has been confirmed. The hard lower shell is a candidate mounting surface, subject to mouth/nose clearance and the three ventilation paths; this is a design possibility, not a verified fit.
+- Check visibility in dim event lighting, reflections, glare, tint, concealment, and diffusion with the Eye Display operating.
+- Validate cable passage, strain relief, connectors, and full-mask removal with the chosen power arrangement.
+- Check comfort, forehead itching, heat, stuffiness, and fogging with the assembled electronics during extended wear.
 
 ### Attachments reported by Leo
 
@@ -79,8 +84,10 @@ What measured geometry, photographs, materials, attachment points, wearer cleara
 
 ### Removal, cable routes, and modification limits
 
+- Preserve the existing mask exterior. The map already permits small concealed cuts, holes, and permanent mounts.
 - The original dark eye insert may be replaced if needed while preserving the mask's outward appearance. Leo believes a clear version may also be sold; availability and fit are unverified.
+- The insert is easy to remove by hand and can be put back in its groove, although refitting takes some fiddling. This provides a possible service access route; an electronics layout must leave that route usable.
 - Leo suggests retaining dark tint if it helps conceal the Eye Display hardware and diffuse its light. Concealment, light transmission, and diffusion are separate effects to test with a candidate Eye Display. The current insert's diffusion behavior has not been established.
 - Leo removes the assembled mask by pulling it forward and slipping the strap over his head. Two hands work better; one-handed removal may be possible but is not confirmed as dependable.
 - Preserve this removal movement when planning added components and cables. A pocket power cable will need enough freedom or a disconnect arrangement to permit removal; the arrangement remains a later design decision.
-- Leo considers piercing the thin foam at one or two existing eye-frame slots/holes acceptable if needed for cable passage. This is a candidate route, not a chosen cable layout. Cable fit, rubbing, strain relief, and interference with the strap, padding, or insert groove remain to be checked.
+- Leo considers making small holes through the foam around the existing top/bottom eye-frame openings acceptable for cable passage and expects routing there to be straightforward. This is a candidate route, not a tested cable layout. Cable fit, rubbing, strain relief, and interference with the strap, padding, or insert groove remain to be checked.
