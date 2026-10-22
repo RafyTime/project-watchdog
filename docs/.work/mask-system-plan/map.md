@@ -20,6 +20,7 @@ A build-ready specification for a serviceable wearable Mask System that can reli
 
 ## Decisions so far
 
+- [Define the Eye Display experience](tasks/02-define-eye-display-experience.md): Agreed on tweakable character-like Expressions, X eyes at startup, static operation, instant switching, and manual brightness; white is sufficient, with blinking, glitches, and other animation optional.
 - [Capture the existing mask constraints](tasks/01-capture-existing-mask-constraints.md): Recorded approximate geometry, construction, wear experience, replaceable insert, and candidate cable access, with component fit and mounting checks reserved for the chosen layout.
 - **Voice System feasibility:** Treat live voice processing as an optional, removable embedded-audio module with wired microphone/speaker paths, independent mute and failure isolation, and reserved power/control interfaces; build it only after the Eye Display is stable and a bench prototype passes latency, feedback, intelligibility, power, and safety gates ([research note](../../research/voice-system-feasibility.md)).
 
