@@ -24,6 +24,7 @@ A build-ready specification for a serviceable wearable Mask System, prioritizing
 - [Capture the existing mask constraints](tasks/01-capture-existing-mask-constraints.md): Recorded approximate geometry, construction, wear experience, replaceable insert, and candidate cable access, with component fit and mounting checks reserved for the chosen layout.
 - **Voice System feasibility:** Treat live voice processing as an optional, removable embedded-audio module with wired microphone/speaker paths, independent mute and failure isolation, and reserved power/control interfaces; build it only after the Eye Display is stable and a bench prototype passes latency, feedback, intelligibility, power, and safety gates ([research note](../../research/voice-system-feasibility.md)).
 - [Define control and event operation](tasks/03-define-control-and-event-operation.md): Prioritize a working Eye Display; controls are optional, with direct selection preferred, agreed disconnect/restart behavior, and accessible power operation near the battery.
+- [Define power, reliability, and safety criteria](tasks/04-define-power-reliability-and-safety-criteria.md): Require four hours at intended brightness, X eyes within 10 seconds of a pocket restart, verified wearability, indoor use with sweat exposure, and preserved removal for repairs.
 
 ## Not yet specified
 
