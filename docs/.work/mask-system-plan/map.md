@@ -2,7 +2,7 @@
 
 ## Destination
 
-A build-ready specification for a serviceable wearable Mask System, prioritizing a working Eye Display as quickly as possible. On-demand Expression switching, the Pocket Controller, Phone Controller, Custom Visuals, and Voice System are optional additions that must not delay the minimum working result. The original verified-operation target was 2026-10-17; a replacement deadline remains to be confirmed.
+A build-ready specification for a serviceable wearable Mask System, prioritizing a working Eye Display as quickly as possible. On-demand Expression switching, the Pocket Controller, Phone Controller, Custom Visuals, and Voice System are optional additions that must not delay the minimum working result. Leo requires the Mask System to be usable and wearable by Friday 2026-10-30, with extra tweaks allowed between 30 and 31 October. See [Confirm the build deadline and minimum milestone](tasks/07-confirm-build-deadline-and-minimum-milestone.md) for remaining milestone details.
 
 ## Notes
 
@@ -25,6 +25,7 @@ A build-ready specification for a serviceable wearable Mask System, prioritizing
 - **Voice System feasibility:** Treat live voice processing as an optional, removable embedded-audio module with wired microphone/speaker paths, independent mute and failure isolation, and reserved power/control interfaces; build it only after the Eye Display is stable and a bench prototype passes latency, feedback, intelligibility, power, and safety gates ([research note](../../research/voice-system-feasibility.md)).
 - [Define control and event operation](tasks/03-define-control-and-event-operation.md): Prioritize a working Eye Display; controls are optional, with direct selection preferred, agreed disconnect/restart behavior, and accessible power operation near the battery.
 - [Define power, reliability, and safety criteria](tasks/04-define-power-reliability-and-safety-criteria.md): Require four hours at intended brightness, X eyes within 10 seconds of a pocket restart, verified wearability, indoor use with sweat exposure, and preserved removal for repairs.
+- [Choose the Eye Display technology and architecture](tasks/06-choose-eye-display-architecture.md): Adapt premade LED glasses for the MVP; compare KBIBCK and Lixada donors, with final donor selection and integration dependent on arrival tests.
 
 ## Not yet specified
 

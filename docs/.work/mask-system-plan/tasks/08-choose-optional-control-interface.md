@@ -2,7 +2,7 @@
 
 Type: grilling
 Status: open
-Blocked by: 06, 07
+Blocked by: 06, 07, 09
 
 ## Question
 
@@ -14,3 +14,4 @@ Given the chosen Eye Display architecture and remaining time, should the build i
 - [Choose the Eye Display technology and architecture](06-choose-eye-display-architecture.md) determines the hardware the control must work with.
 - [Confirm the build deadline and minimum milestone](07-confirm-build-deadline-and-minimum-milestone.md) determines the time available for extras.
 - Prefer direct access to several Expressions. A Pocket Controller should work by feel with gloves and a locked phone; a Phone Controller alone requires phone access.
+- [Test donor glasses and select the Eye Display](09-test-donor-glasses-and-select-eye-display.md) establishes the selected donor's actual drawing, restart and control capabilities before planning optional controls.
