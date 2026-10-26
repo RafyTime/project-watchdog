@@ -1,7 +1,7 @@
 # Choose the Eye Display technology and architecture
 
 Type: grilling
-Status: claimed
+Status: resolved
 Blocked by: 02, 04
 
 ## Question
@@ -45,3 +45,19 @@ Which Eye Display technology, panel arrangement, optical layers, and electrical 
 - Leo requested research of Amazon alternatives to CHEMION rather than supplying favorite listings. Live checks for 53604 Bad Honnef found KBIBCK B0FFSQH8G2 at EUR 22.89 and Lixada B09L85YL7B at EUR 41.99, both showing 28 October delivery with a faster 27 October option. Their EUR 64.88 combined price excludes shipping and mounting/wiring. These are estimates, not purchases or guarantees.
 - The current research preference is two different donor designs, conditional on active size, mask fit, inward vision, custom-X startup and control relocation. No exact-model teardown or 35 mm active-height specification was established. A 39 mm standalone board remains conditional because illuminated span and timely arrival are unverified. See the updated [comparison](../../../research/eye-display-candidates.md) and [donor evidence](../../../research/led-glasses-donors.md).
 - No architecture selection has been agreed and this ticket remains unresolved.
+
+### Procurement decision, 2026-10-26
+
+- Leo chose to proceed with KBIBCK and Lixada donor glasses and reports both checkout estimates show arrival Tuesday 27 October. He intends to order them himself; purchase completion and receipt are not confirmed.
+- Leo requires a usable, wearable Mask System by Friday 30 October, with additional tweaks allowed between 30 and 31 October. The exact time of day is not specified.
+- Leo requested a separate arrival-testing task using to-tickets.
+
+## Answer
+
+Agreed with Leo on 2026-10-26: use premade LED glasses as the MVP Eye Display architecture and compare the KBIBCK B0FFSQH8G2 and Lixada B09L85YL7B donors. Favor their existing display, controller, drawing software and battery over developing a new display/controller assembly for this deadline. The two-alternative cap is EUR 100 excluding the general-use power bank. Target distinct light points and approximately 35 mm minimum Expression height per eye.
+
+This resolves the architecture direction and procurement candidates, not a claim that either donor passes the requirements. Preserve each donor's working electronics during initial testing. Do not assume the PCB bends, the eye areas can be separated, the arms contain expendable parts, or USB charging provides the required pocket restart.
+
+[Test donor glasses and select the Eye Display](09-test-donor-glasses-and-select-eye-display.md) records the remaining physical investigation and selection gate. It must establish custom-X operation, illuminated size, retained startup pattern, mask fit, wearer vision and the locations of required electronics before selecting a donor for integration. Final mounting, optical layers, power supply and accessible restart depend on those findings. Four-hour runtime and the other agreed wearability criteria remain required for the assembled Mask System.
+
+If neither donor passes, record the failure and reopen this architecture decision. Do not spend the remaining build time modifying a known failing donor.
