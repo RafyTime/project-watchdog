@@ -1,7 +1,7 @@
 # Test donor glasses and select the Eye Display
 
 Type: task
-Status: open
+Status: claimed
 Blocked by: 06
 
 ## Question
@@ -33,3 +33,9 @@ A comparison of both intact donors, a selected donor or a documented rejection o
 ## Blockers and handoff
 
 The architecture decision is resolved. Physical work waits for delivery and Leo's participation. Final mounting and electrical planning must use these findings. [Choose the optional control interface](08-choose-optional-control-interface.md) waits for the selected donor's capabilities.
+
+## Comments
+
+### Delivery update, 2026-10-27
+
+Leo reports the KBIBCK glasses are out for delivery and expected soon. The Lixada glasses have not been dispatched. Neither donor has been received or tested yet. Begin intact checks with KBIBCK once it arrives; the comparison and donor selection remain pending physical findings and Lixada availability.
